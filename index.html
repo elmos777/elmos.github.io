@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elias Lilja – Etusivu</title>
+  <!-- Jos Agrandir ei ole asennettu, selain käyttää Arialia -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="Etusivu">
+  <img src="logoEL.png" alt="Logo">
+</a>
+  <div class="symbol" aria-hidden="true">✶</div>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="mainnav" aria-label="Avaa valikko">☰</button>
+  <nav id="mainnav" class="nav-drawer" aria-label="Päävalikko">
+    <ul>
+      <li><a href="index.html" aria-current="page">Etusivu</a></li>
+      <li><a href="tyot.html">Työt</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="yhteys.html">Yhteys</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Elias Lilja</h1>
+    <p class="lead">
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+ 
+    </p>
+    <div class="cta">
+      <a class="btn" href="yhteys.html">Ota yhteyttä</a>
+      <a class="btn btn-secondary" href="tyot.html">Tutustu töihin</a>
+    </div>
+  </section>
+
+  <section class="work-teaser">
+    <h2>Työt</h2>
+    <div class="cards">
+      <article class="card">
+  <img src="nbkuvaN.png" alt="Verkkosivuprojekti">
+  <div class="card-body">
+    <h3>Nettisivut</h3>
+    <p>Mobiiliresponsiivinen sivusto selkeällä käyttöliittymällä.</p>
+    <a class="card-link" href="tyot.html">Lue lisää</a>
+  </div>
+</article>
+<article class="card">
+  <img src="nbkuvaD.png" alt="Design projektin kuva">
+  <div class="card-body">
+    <h3>Design</h3>
+    <p>Visuaalisia konsepteja ja graafisia materiaaleja markkinointiin.</p>
+    <a class="card-link" href="tyot.html">Lue lisää</a>
+  </div>
+</article>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© Elias Lilja</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
