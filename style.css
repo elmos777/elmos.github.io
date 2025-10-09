@@ -1,4 +1,4 @@
-/* Jos Agrandir ei ole, fallback on Arial */
+
 :root{
   --bg:#ffffff;
   --text:#000000;
@@ -54,7 +54,6 @@ h1,h2,h3,h4,h5,h6,.page-title{
   line-height:1;
 }
 
-/* Mobiilinav piiloon oletuksena */
 .nav-drawer{
   position:fixed;
   inset:0 0 0 40%;
@@ -68,7 +67,6 @@ h1,h2,h3,h4,h5,h6,.page-title{
 .nav-drawer a{color:var(--text);text-decoration:none;font-size:20px}
 .nav-drawer a:hover{color:var(--accent)}
 
-/* Desktopissa vaakavalikko */
 @media (min-width:900px){
   .menu-toggle{display:none}
   .nav-drawer{
@@ -83,7 +81,7 @@ h1,h2,h3,h4,h5,h6,.page-title{
 
 main{max-width:var(--maxw);padding:16px;margin:0 auto}
 
-/* Etusivu */
+
 .hero{text-align:center;padding:32px 8px 8px}
 .hero h1{font-size:32px}
 @media (min-width:900px){.hero h1{font-size:40px}}
@@ -101,7 +99,7 @@ main{max-width:var(--maxw);padding:16px;margin:0 auto}
 .btn:hover{filter:brightness(.9)}
 .btn.btn-secondary{background:#111}
 
-/* Etusivun nostot */
+
 .work-teaser h2 { text-align:center; margin:32px 0 12px }
 .cards { display:grid; gap:16px; grid-template-columns:1fr }
 @media (min-width:900px){ .cards { grid-template-columns:repeat(2,1fr) } }
@@ -115,17 +113,17 @@ main{max-width:var(--maxw);padding:16px;margin:0 auto}
 .card .card-body .card-link { display:inline-block }
 
 
-/* Työt sivu */
+/* Työt  */
 .page-title{text-align:center;margin:24px 0 12px;font-size:28px}
 .project-block{margin:24px 0}
 .project-block img{width:100%;height:auto;border:1px solid #eaecef;border-radius:8px}
 
-/* CV sivu */
+/* CV  */
 .cv-figure{margin:12px auto;max-width:700px;text-align:center}
 .cv-figure img{width:100%;height:auto;border-radius:8px;background:#eee}
 .muted{text-align:center;color:#444}
 
-/* Yhteys sivu */
+/* Yhteys  */
 .contact-list{max-width:460px;margin:16px auto;line-height:1.8}
 .contact-list a{color:var(--accent);text-decoration:none}
 .contact-list a:hover{text-decoration:underline}
