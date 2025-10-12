@@ -12,14 +12,14 @@
 html,body{margin:0;padding:0}
 
 body{
-  font-family:"Manrope", Arial, Helvetica, sans-serif;
+  font-family:"Epilogue", Arial, Helvetica, sans-serif;
   color:var(--text);
   background:var(--bg);
   line-height:1.6;
 }
 
 h1,h2,h3,h4,h5,h6,.page-title{
-  font-family:"Manrope","Manrope", Arial, Helvetica, sans-serif;
+  font-family:"Epilogue", Arial, Helvetica, sans-serif;
   font-weight:700;
   margin:0 0 .4em 0;
   color:var(--text);
